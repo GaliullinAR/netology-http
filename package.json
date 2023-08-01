@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "ISC",
-  "test": {
-    "testEnvironment": "node",
-    "testTimeout": 35000
-  },
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
@@ -19,15 +15,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kievsan/ahj-http.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kievsan/ahj-http.git"
-  },
-  "author": "kievsan",
-  "homepage": "https://github.com/kievsan/ahj-http.git",
+  "author": "GaiullinAR<galiullin.ar651@gmail.com>",
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.2",
